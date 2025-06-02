@@ -1,0 +1,32 @@
+# === Node.js ===
+**/node_modules/
+**/npm-debug.log
+**/package-lock.json
+
+# === Docker ===
+*.tar
+.dockerignore
+
+# === Kubernetes ===
+*.secret.yaml
+*.env
+*.env.local
+
+# === Logs ===
+*.log
+logs/
+
+# === OS / Editor Junk ===
+.DS_Store
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+
+# === Archives ===
+*.zip
+*.tar.gz
+
+# === Build Artifacts ===
+dist/
+build/
